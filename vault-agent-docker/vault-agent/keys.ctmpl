@@ -1,0 +1,4 @@
+{{ with secret "mo/agentId" }}
+role_id : {{ .Data.data.role_id }}
+secret_id : {{ .Data.data.secret_id }}
+{{ end }}
